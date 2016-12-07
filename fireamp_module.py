@@ -61,7 +61,7 @@ def main():
     pass
 
 # The base URL is the starting point. Everything gets added on to that
-fireamp_baseurl = "https://api.amp.sourcefire.com/v0/"
+fireamp_baseurl = "https://api.amp.cisco.com/v1/"
 
 # The headers are recommended by the API docs
 fireamp_headers = {"Accept-Encoding" : "gzip, deflate", 'user-agent' : "FireAMP Python Script 1.0"}

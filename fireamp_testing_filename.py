@@ -7,7 +7,7 @@ import requests
 
 fa_client_id = ""
 fa_api_key = ""
-fireamp_baseurl = "https://api.amp.sourcefire.com/v0/"
+fireamp_baseurl = "https://api.amp.cisco.com/v1/"
 fireamp_headers = {"Accept-Encoding" : "gzip, deflate"}
 
 fireamp_req = requests.Session()
